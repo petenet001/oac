@@ -26,7 +26,7 @@
                         <img src="{{ asset('oac_custom_assets/ICONES/armoirie1.png') }}" class="img-fluid" />
                     </li>
                     <li>
-                        <h1>ARCHITECTURE DESIGN</h1>
+                        <h1>ORDRE DES ARCHITECTES DU CONGO</h1>
                     </li>
                     <li>
                         <img src="{{ asset('oac_custom_assets/ICONES/cg.png') }}" class="img-fluid" />
