@@ -1,6 +1,6 @@
 <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="/" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <img src="{{ asset('oac_custom_assets/logo2.svg') }}" class="img-responsive" style="width:60px;heigt:auto"  alt="">
             {{-- <h1 class="sitename">AOC</h1>  --}}

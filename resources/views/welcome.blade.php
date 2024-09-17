@@ -32,18 +32,18 @@
                         <img src="{{ asset('oac_custom_assets/ICONES/cg.png') }}" class="img-fluid" />
                     </li>
                 </ul>
-                <div class="spacer " >
-                  <div class="container" style="background-color: white; color:blue;">
+                <div class="spacer" >
+                  <div class="container">
                     <marquee class="container" behavior="" direction="">
-                      <h1>
+                      <span>
                         Un texte test Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores nulla
                         dolorem veniam, ratione quasi ipsa rerum impedit deleniti? Minus necessitatibus excepturi sed amet
                         doloribus? Sint debitis accusamus itaque aperiam!
-                      </h1>
+                      </span>
                      </marquee>
                   </div>
                 </div>
-                <div class="container d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                <div class="container" style="">
                     <div class="row">
                         <div class="col-md-4 align-content-end">
                             <ul class="nav flex-column">
@@ -74,7 +74,7 @@
                             </ul>
                         </div>
                         <div class="col-md-4">
-                            <img src="{{ asset('oac_custom_assets/logo.png') }}" class="main-logo" />
+                            <img src="{{ asset('oac_custom_assets/logo2.svg') }}" class="img-fluid" style="min-width:200px;heigt:auto"  alt="">
                         </div>
                         <div class="col-md-4 align-content-start">
                             <ul class="nav flex-column">
@@ -119,10 +119,6 @@
                         </div>
                         <div class="col-md-4"></div>
                     </div>
-                </div>
-                <div class="container d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none"
-                    id="mobile-container">
-                    <!-- Le contenu du mobile-container avec les chemins modifiés -->
                 </div>
             </header>
 

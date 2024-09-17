@@ -907,7 +907,7 @@ justify-content: space-around;
   );
   bottom: 0;
   cursor: default;
-  height: 6em;
+  /* height: 6em; */
   left: 0;
   line-height: 8em;
   position: absolute;
@@ -1287,5 +1287,91 @@ justify-content: space-around;
 
   #header nav {
     padding: 0 1em;
+  }
+}
+
+
+/* Ajouts pour améliorer la responsivité */
+/* Ajouts pour permettre le défilement sur petits écrans */
+@media screen and (max-width: 768px) {
+  body {
+    overflow-y: auto;
+  }
+
+  #wrapper {
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
+  }
+
+  #main {
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  #header {
+    position: relative;
+    top: 0;
+    padding-top: 1em;
+    height: auto;
+  }
+
+  #header ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #header ul li {
+    margin-bottom: 10px;
+  }
+
+  .container > .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container > .row > :nth-of-type(1),
+  .container > .row > :nth-of-type(3) {
+    direction: ltr;
+    margin: 10px 0;
+  }
+
+  .nav-icons {
+    width: 15px;
+    margin: 0 3px;
+  }
+
+  #header ul li a.text-muted {
+    font-size: 1.2rem;
+  }
+
+  .spacer {
+    height: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .main-logo {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #header h1 {
+    font-size: 1.8em;
+  }
+
+  .img-fluid {
+    width: 40px;
+  }
+
+  #header ul li a.text-muted {
+    font-size: 1rem;
+  }
+
+  .spacer {
+    font-size: 14px;
   }
 }
