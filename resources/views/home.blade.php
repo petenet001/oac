@@ -96,7 +96,7 @@
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="member-item">
-                        <img src="https://www.adiac-congo.com/sites/default/files/img-20240427-wa0069.jpg"
+                        <img src="{{ asset('assets/img/hiostory.jpg') }}"
                             alt="Nom du Membre" class="img-fluid">
                         <h4>Jean Mukoko</h4>
                         <p>Président de l'OAC</p>
@@ -105,7 +105,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="member-item">
-                        <img src="https://www.adiac-congo.com/sites/default/files/img-20240427-wa0069.jpg"
+                        <img src="{{ asset('assets/img/hiostory.jpg') }}"
                             alt="Nom du Membre" class="img-fluid">
                         <h4>Marie Yango</h4>
                         <p>Vice-Présidente de l'OAC</p>
