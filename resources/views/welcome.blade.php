@@ -11,6 +11,36 @@
     <noscript>
         <link rel="stylesheet" href="{{ asset('oac_custom_assets/css/noscript.css') }}" />
     </noscript>
+    <style>
+        .news-ticker {
+          overflow: hidden;
+          white-space: nowrap;
+          box-sizing: border-box;
+          padding: 10px;
+        }
+      
+        .news-items {
+          display: inline-block;
+          white-space: nowrap;
+          animation: scroll-left 40s linear infinite;
+        }
+      
+        .news-items a {
+          display: inline-block;
+          margin-right: 50px; /* Espace entre les éléments */
+          color: #ffffff;
+          text-decoration: none;
+        }
+      
+        @keyframes scroll-left {
+          from {
+            transform: translateX(100%);
+          }
+          to {
+            transform: translateX(-100%);
+          }
+        }
+      </style>
 </head>
 
 <body class="is-preload">
@@ -32,16 +62,15 @@
                         <img src="{{ asset('oac_custom_assets/ICONES/cg.png') }}" class="img-fluid" />
                     </li>
                 </ul>
-                <div class="spacer" >
-                  <div class="container">
-                    <marquee class="container" behavior="" direction="">
-                      <span>
-                        Un texte test Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores nulla
-                        dolorem veniam, ratione quasi ipsa rerum impedit deleniti? Minus necessitatibus excepturi sed amet
-                        doloribus? Sint debitis accusamus itaque aperiam!
-                      </span>
-                     </marquee>
-                  </div>
+                <div class="spacer">
+                    <div class="container">
+                        <div class="news-ticker">
+                            <div class="news-items">
+                              <a href="#" class="nav-link">Ordre des architectes du Congo : Antoine Béli Bokolojoué se fixe de nouveaux défis.</a>
+                              <a href="#" class="nav-link">Ordre des architectes du Congo : Antoine Béli Bokolojoué se fixe de nouveaux défis.</a>
+                            </div>
+                          </div>
+                    </div>
                 </div>
                 <div class="container" style="">
                     <div class="row">
@@ -74,7 +103,8 @@
                             </ul>
                         </div>
                         <div class="col-md-4">
-                            <img src="{{ asset('oac_custom_assets/logo2.svg') }}" class="img-fluid" style="min-width:200px;heigt:auto"  alt="">
+                            <img src="{{ asset('oac_custom_assets/logo2.svg') }}" class="img-fluid"
+                                style="min-width:200px;heigt:auto" alt="">
                         </div>
                         <div class="col-md-4 align-content-start">
                             <ul class="nav flex-column">

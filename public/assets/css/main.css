@@ -45,12 +45,16 @@
 }
 
 .dark-background {
-  --background-color: #7a2e78;
+  /* --background-color: #7a2e78;#0000008a */
+  --background-color: #0000008a;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #252525;
   --contrast-color: #ffffff;
 }
+
+
+
 
 /* Smooth scroll */
 :root {
@@ -926,6 +930,8 @@ section,
 /*--------------------------------------------------------------
 # Get Started Section
 --------------------------------------------------------------*/
+
+
 .get-started .content {
   padding: 30px 0;
 }

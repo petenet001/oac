@@ -5,25 +5,24 @@
 
 @section('content')
 
+
+
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
         <div class="info d-flex align-items-center">
             <div class="container">
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-lg-6 text-center">
-                        <h2>Bienvenue chez OAC</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#get-started" class="btn-get-started">Commencer</a>
+                        <h2>Bienvenue à l'Ordre des Architectes du Congo</h2>
+                        <p>Depuis 1992, nous œuvrons pour l'excellence architecturale et le développement urbain durable au
+                            Congo.</p>
+                        <a href="#about" class="btn-get-started">Découvrir l'OAC</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-
             <div class="carousel-item">
                 <img src="assets/img/hero-carousel/carousel-1.JPG" alt="">
             </div>
@@ -31,273 +30,125 @@
             <div class="carousel-item active">
                 <img src="assets/img/hero-carousel/carousel-2.JPG" alt="">
             </div>
-
-{{--             <div class="carousel-item">
-                <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
-            </div>
-
-            <div class="carousel-item">
-                <img src="assets/img/hero-carousel/hero-carousel-4.jpg" alt="">
-            </div>
-
-            <div class="carousel-item">
-                <img src="assets/img/hero-carousel/hero-carousel-5.jpg" alt="">
-            </div> --}}
-
-            <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-            </a>
-
-            <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-            </a>
-
+            <!-- Add more carousel items as needed -->
         </div>
+    </section><!-- End Hero Section -->
 
-    </section><!-- /Hero Section -->
 
     <!-- Get Started Section -->
-    <section id="get-started" class="get-started section">
-
+    <section id="get-started" class="get-started section py-5">
         <div class="container">
-
             <div class="row justify-content-between gy-4">
-
                 <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
                     <div class="content">
-                        <h3>Minus hic non reiciendis ea possimus at quia.</h3>
-                        <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum
-                            nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi
-                            possimus ut delectus dicta.
+                        <h3>Historique de l'Ordre des Architectes du Congo</h3>
+                        <p>L'Ordre des Architectes du Congo (OAC) a été officiellement créé par la loi 013-92 du 29 avril
+                            1992,
+                            dans le but de structurer et de réguler la profession architecturale à travers le pays. Depuis
+                            ses débuts,
+                            l'OAC s'est affirmé comme un acteur majeur dans le développement de l'architecture et de
+                            l'urbanisme au Congo.</p>
+
+                        <p>En 32 ans d’existence, l’OAC a accompagné d’importants projets d’infrastructures publiques et
+                            privées, tout en veillant
+                            à ce que les standards architecturaux soient respectés. L'Ordre a également œuvré pour
+                            l'adoption de nouvelles pratiques,
+                            telles que l'intégration des technologies modernes dans le processus de conception et de
+                            construction.</p>
+
+                        <p>Aujourd'hui, l'OAC s'efforce de renforcer le cadre réglementaire des appels d'offres, de
+                            promouvoir la reconnaissance
+                            des architectes au sein de la fonction publique, et d'améliorer les formations pour les jeunes
+                            générations de professionnels.
+                            L’avenir de l'architecture au Congo repose sur la capacité à s’adapter aux défis contemporains,
+                            notamment à travers des diagnostics
+                            architecturaux plus rigoureux et une plus grande collaboration avec les autorités locales pour
+                            des projets d’urbanisme durables.</p>
+                        <p>
+                            Notre mission est de :
+
+                            Garantir la qualité et l'éthique dans la pratique de l'architecture
+                            Promouvoir une architecture durable et adaptée au contexte congolais
+                            Représenter les intérêts des architectes auprès des autorités
+                            Favoriser la formation continue et l'innovation dans le domaine
+                            Avec plus de 500 membres actifs, l'OAC joue un rôle crucial dans le développement urbain et
+                            architectural du Congo.
                         </p>
-                        <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos.
-                            Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+                        <a href="#historique-complet" class="btn btn-primary mt-3">En savoir plus</a>
                     </div>
                 </div>
 
-                <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-                    <form action="forms/quote.php" method="post" class="php-email-form">
-                        <h3>Get a quote</h3>
-                        <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead
-                            sero park flows.</p>
-                        <div class="row gy-3">
-
-                            <div class="col-12">
-                                <input type="text" name="name" class="form-control" placeholder="Name" required="">
-                            </div>
-
-                            <div class="col-12 ">
-                                <input type="email" class="form-control" name="email" placeholder="Email"
-                                    required="">
-                            </div>
-
-                            <div class="col-12">
-                                <input type="text" class="form-control" name="phone" placeholder="Phone"
-                                    required="">
-                            </div>
-
-                            <div class="col-12">
-                                <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                            </div>
-
-                            <div class="col-12 text-center">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
-
-                                <button type="submit">Get a quote</button>
-                            </div>
-
-                        </div>
-                    </form>
-                </div><!-- End Quote Form -->
-
+                <div class="col-lg-6" data-aos="zoom-out" data-aos-delay="200">
+                    <img src="{{ asset('assets/img/hiostory.jpg') }}" alt="" class="img-fluid">
+                </div>
             </div>
-
         </div>
-
     </section><!-- /Get Started Section -->
 
-    <!-- Constructions Section -->
-    <section id="constructions" class="constructions section">
 
-        <!-- Section Title -->
+    <!-- Members Section -->
+    <section id="members" class="members section">
         <div class="container section-title" data-aos="fade-up">
-            <h2>Constructions</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
-
-        <div class="container">
-
-            <div class="row gy-4">
-
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card-item">
-                        <div class="row">
-                            <div class="col-xl-5">
-                                <div class="card-bg"><img src="assets/img/constructions-1.jpg" alt=""></div>
-                            </div>
-                            <div class="col-xl-7 d-flex align-items-center">
-                                <div class="card-body">
-                                    <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
-                                    <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat
-                                        deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo
-                                        magnam. Dolor eos et.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- End Card Item -->
-
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card-item">
-                        <div class="row">
-                            <div class="col-xl-5">
-                                <div class="card-bg"><img src="assets/img/constructions-2.jpg" alt=""></div>
-                            </div>
-                            <div class="col-xl-7 d-flex align-items-center">
-                                <div class="card-body">
-                                    <h4 class="card-title">Possimus ut sed velit assumenda</h4>
-                                    <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis. Est
-                                        laboriosam qui iste numquam laboriosam voluptatem architecto. Est laudantium sunt at
-                                        quas aut hic. Eum dignissimos.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- End Card Item -->
-
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="card-item">
-                        <div class="row">
-                            <div class="col-xl-5">
-                                <div class="card-bg"><img src="assets/img/constructions-3.jpg" alt=""></div>
-                            </div>
-                            <div class="col-xl-7 d-flex align-items-center">
-                                <div class="card-body">
-                                    <h4 class="card-title">Error beatae dolor inventore aut</h4>
-                                    <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam
-                                        quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit.
-                                        Ut sunt temporibus nulla culpa.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- End Card Item -->
-
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-                    <div class="card-item">
-                        <div class="row">
-                            <div class="col-xl-5">
-                                <div class="card-bg"><img src="assets/img/constructions-4.jpg" alt=""></div>
-                            </div>
-                            <div class="col-xl-7 d-flex align-items-center">
-                                <div class="card-body">
-                                    <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
-                                    <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos
-                                        doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione
-                                        dolores. Aut aliquid ea dolores libero nobis.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- End Card Item -->
-
-            </div>
-
+            <h2>Nos Membres Éminents</h2>
+            <p>Découvrez quelques-uns de nos architectes distingués qui contribuent à façonner le paysage congolais</p>
         </div>
-
-    </section><!-- /Constructions Section -->
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-item">
+                        <img src="https://www.adiac-congo.com/sites/default/files/img-20240427-wa0069.jpg"
+                            alt="Nom du Membre" class="img-fluid">
+                        <h4>Jean Mukoko</h4>
+                        <p>Président de l'OAC</p>
+                        <p>Architecte renommé avec 30 ans d'expérience dans les projets d'urbanisme durable.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-item">
+                        <img src="https://www.adiac-congo.com/sites/default/files/img-20240427-wa0069.jpg"
+                            alt="Nom du Membre" class="img-fluid">
+                        <h4>Marie Yango</h4>
+                        <p>Vice-Présidente de l'OAC</p>
+                        <p>Spécialiste en architecture écologique et lauréate du prix national d'architecture 2020.</p>
+                    </div>
+                </div>
+                <!-- Add more member items as needed -->
+            </div>
+        </div>
+    </section><!-- End Members Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section light-background">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Services</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
-
-        <div class="container">
-
-            <div class="row gy-4">
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-item  position-relative">
-                        <div class="icon">
-                            <i class="fa-solid fa-mountain-city"></i>
-                        </div>
-                        <h3>Nesciunt Mete</h3>
-                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure
-                            perferendis tempore et consequatur.</p>
-                        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div><!-- End Service Item -->
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-                        </div>
-                        <h3>Eosle Commodi</h3>
-                        <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non
-                            ut nesciunt dolorem.</p>
-                        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div><!-- End Service Item -->
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="fa-solid fa-compass-drafting"></i>
-                        </div>
-                        <h3>Ledo Markt</h3>
-                        <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas
-                            adipisci eos earum corrupti.</p>
-                        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div><!-- End Service Item -->
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                    <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="fa-solid fa-trowel-bricks"></i>
-                        </div>
-                        <h3>Asperiores Commodit</h3>
-                        <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit
-                            provident adipisci neque.</p>
-                        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div><!-- End Service Item -->
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-                    <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="fa-solid fa-helmet-safety"></i>
-                        </div>
-                        <h3>Velit Doloremque</h3>
-                        <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at
-                            autem alias eius labore.</p>
-                        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div><!-- End Service Item -->
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-                    <div class="service-item position-relative">
-                        <div class="icon">
-                            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-                        </div>
-                        <h3>Dolori Architecto</h3>
-                        <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti
-                            recusandae ducimus enim.</p>
-                        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div><!-- End Service Item -->
-
-            </div>
-
+    <section id="services" class="services section">
+        <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+            <h2>Nos Services</h2>
+            <p>L'OAC offre une gamme de services pour soutenir ses membres et promouvoir l'excellence architecturale</p>
         </div>
-
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="fa-solid fa-users"></i></div>
+                        <h3>Inscription au Tableau de l'Ordre</h3>
+                        <p>Processus d'inscription et de renouvellement pour les architectes qualifiés.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="fa-solid fa-book"></i></div>
+                        <h3>Formation Continue</h3>
+                        <p>Programmes de formation pour maintenir et améliorer les compétences professionnelles.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                        <h3>Conseil Juridique</h3>
+                        <p>Assistance juridique sur les questions liées à la pratique architecturale.</p>
+                    </div>
+                </div>
+                <!-- Add more service items as needed -->
+            </div>
+        </div>
     </section><!-- /Services Section -->
 
     <!-- Alt Services Section -->
@@ -362,57 +213,56 @@
 
         <div class="container">
 
-            <ul class="nav nav-tabs row  g-2 d-flex" data-aos="fade-up" data-aos-delay="100" role="tablist">
+            <ul class="nav nav-tabs row g-2 d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                role="tablist">
 
                 <li class="nav-item col-3" role="presentation">
-                    <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1"
-                        aria-selected="true" role="tab">
-                        <h4>Modisit</h4>
+                    <a class="nav-link show" data-bs-toggle="tab" data-bs-target="#features-tab-1" aria-selected="false"
+                        role="tab" tabindex="-1">
+                        <h4>Formation</h4>
                     </a>
                 </li><!-- End tab nav item -->
 
                 <li class="nav-item col-3" role="presentation">
                     <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" aria-selected="false"
-                        tabindex="-1" role="tab">
-                        <h4>Praesenti</h4>
+                        role="tab" tabindex="-1">
+                        <h4>Réglementation</h4>
                     </a><!-- End tab nav item -->
 
                 </li>
                 <li class="nav-item col-3" role="presentation">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" aria-selected="false"
-                        tabindex="-1" role="tab">
-                        <h4>Explica</h4>
+                    <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#features-tab-3"
+                        aria-selected="true" role="tab">
+                        <h4>Éthique</h4>
                     </a>
                 </li><!-- End tab nav item -->
 
                 <li class="nav-item col-3" role="presentation">
                     <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" aria-selected="false"
                         tabindex="-1" role="tab">
-                        <h4>Nostrum</h4>
+                        <h4>Innovation</h4>
                     </a>
                 </li><!-- End tab nav item -->
 
             </ul>
 
-            <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+            <div class="tab-content aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
 
-                <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
+                <div class="tab-pane fade" id="features-tab-1" role="tabpanel">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                            <h3>Voluptatem dignissimos provident</h3>
+                            <h3>Formation continue des architectes</h3>
                             <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore
-                                magna aliqua.
+                                L'Ordre des Architectes du Congo s'engage à promouvoir l'excellence professionnelle à
+                                travers des programmes de formation continue.
                             </p>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in
-                                        voluptate velit.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                                        storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Ateliers et séminaires sur les dernières
+                                        innovations en architecture.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Programmes de mentorat pour les jeunes
+                                        architectes.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Conférences internationales pour favoriser
+                                        l'échange d'idées et de pratiques.</span></li>
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -424,22 +274,20 @@
                 <div class="tab-pane fade" id="features-tab-2" role="tabpanel">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                            <h3>Neque exercitationem debitis</h3>
+                            <h3>Réglementation et normes professionnelles</h3>
                             <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore
-                                magna aliqua.
+                                Nous veillons au respect des normes et réglementations en vigueur pour garantir la qualité
+                                et la sécurité des constructions au Congo.
                             </p>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in
-                                        voluptate velit.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores
-                                        dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                                        storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Élaboration et mise à jour des codes de
+                                        construction.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Supervision des pratiques
+                                        professionnelles.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Collaboration avec les autorités pour
+                                        l'amélioration des normes.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Conseil et assistance aux architectes sur les
+                                        questions réglementaires.</span></li>
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -448,22 +296,21 @@
                     </div>
                 </div><!-- End tab content item -->
 
-                <div class="tab-pane fade" id="features-tab-3" role="tabpanel">
+                <div class="tab-pane fade active show" id="features-tab-3" role="tabpanel">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                            <h3>Voluptatibus commodi accusamu</h3>
+                            <h3>Éthique et déontologie</h3>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in
-                                        voluptate velit.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores
-                                        dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Promotion d'une pratique éthique de
+                                        l'architecture.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Gestion des conflits d'intérêts et médiation
+                                        professionnelle.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Sensibilisation à la responsabilité sociale et
+                                        environnementale.</span></li>
                             </ul>
                             <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore
-                                magna aliqua.
+                                L'Ordre des Architectes du Congo s'engage à maintenir les plus hauts standards éthiques dans
+                                la profession, assurant ainsi la confiance du public et l'intégrité de notre communauté.
                             </p>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -475,20 +322,18 @@
                 <div class="tab-pane fade" id="features-tab-4" role="tabpanel">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                            <h3>Omnis fugiat ea explicabo sunt</h3>
+                            <h3>Innovation et développement durable</h3>
                             <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore
-                                magna aliqua.
+                                Nous encourageons l'innovation et l'adoption de pratiques durables dans l'architecture
+                                congolaise pour répondre aux défis du 21e siècle.
                             </p>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in
-                                        voluptate velit.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                                        storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Promotion de l'architecture verte et des
+                                        technologies éco-responsables.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Soutien à la recherche en architecture tropicale
+                                        et climatique.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Organisation de concours d'innovation pour
+                                        stimuler la créativité et l'adaptation aux besoins locaux.</span></li>
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -504,25 +349,27 @@
     </section><!-- /Features Section -->
 
     <!-- Projects Section -->
+
+    <!-- Section Projets -->
     <section id="projects" class="projects section">
 
-        <!-- Section Title -->
+        <!-- Titre de la Section -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Projects</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
+            <h2>Nos Réalisations</h2>
+            <p>Découvrez les projets remarquables de nos architectes membres à travers le Congo</p>
+        </div><!-- Fin du Titre de la Section -->
 
         <div class="container">
 
             <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
                 <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-remodeling">Remodeling</li>
-                    <li data-filter=".filter-construction">Construction</li>
-                    <li data-filter=".filter-repairs">Repairs</li>
-                    <li data-filter=".filter-design">Design</li>
-                </ul><!-- End Portfolio Filters -->
+                    <li data-filter="*" class="filter-active">Tous</li>
+                    <li data-filter=".filter-remodeling">Résidentiel</li>
+                    <li data-filter=".filter-construction">Commercial</li>
+                    <li data-filter=".filter-repairs">Public</li>
+                    <li data-filter=".filter-design">Culturel</li>
+                </ul><!-- Fin des Filtres du Portfolio -->
 
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
@@ -530,359 +377,203 @@
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/remodeling-1.jpg" title="App 1"
+                                <h4>Villa Moderne à Brazzaville</h4>
+                                <p>Conception d'une résidence contemporaine adaptée au climat tropical</p>
+                                <a href="assets/img/projects/remodeling-1.jpg" title="Villa Moderne à Brazzaville"
                                     data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="project-details.html" title="More Details" class="details-link"><i
+                                <a href="project-details.html" title="Plus de Détails" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- Fin de l'Élément du Portfolio -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/construction-1.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Product 1</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/construction-1.jpg" title="Product 1"
+                                <h4>Centre Commercial à Pointe-Noire</h4>
+                                <p>Conception d'un espace commercial moderne intégrant des éléments traditionnels congolais
+                                </p>
+                                <a href="assets/img/projects/construction-1.jpg" title="Centre Commercial à Pointe-Noire"
                                     data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="project-details.html" title="More Details" class="details-link"><i
+                                <a href="project-details.html" title="Plus de Détails" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- Fin de l'Élément du Portfolio -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/repairs-1.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Branding 1</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/repairs-1.jpg" title="Branding 1"
+                                <h4>Rénovation de l'Hôpital Général de Dolisie</h4>
+                                <p>Modernisation et extension des installations médicales existantes</p>
+                                <a href="assets/img/projects/repairs-1.jpg"
+                                    title="Rénovation de l'Hôpital Général de Dolisie"
                                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="project-details.html" title="More Details" class="details-link"><i
+                                <a href="project-details.html" title="Plus de Détails" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- Fin de l'Élément du Portfolio -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Books 1</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/design-1.jpg" title="Branding 1"
+                                <h4>Musée National du Congo à Brazzaville</h4>
+                                <p>Conception d'un espace culturel mettant en valeur l'histoire et l'art congolais</p>
+                                <a href="assets/img/projects/design-1.jpg" title="Musée National du Congo à Brazzaville"
                                     data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="project-details.html" title="More Details" class="details-link"><i
+                                <a href="project-details.html" title="Plus de Détails" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- Fin de l'Élément du Portfolio -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/remodeling-2.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/remodeling-2.jpg" title="App 2"
+                                <h4>Éco-lodge dans la Réserve de Léfini</h4>
+                                <p>Conception d'hébergements touristiques écologiques en harmonie avec la nature</p>
+                                <a href="assets/img/projects/remodeling-2.jpg" title="Éco-lodge dans la Réserve de Léfini"
                                     data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="project-details.html" title="More Details" class="details-link"><i
+                                <a href="project-details.html" title="Plus de Détails" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- Fin de l'Élément du Portfolio -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/construction-2.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Product 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/construction-2.jpg" title="Product 2"
+                                <h4>Tour de Bureaux à Brazzaville</h4>
+                                <p>Conception d'un gratte-ciel moderne intégrant des technologies vertes</p>
+                                <a href="assets/img/projects/construction-2.jpg" title="Tour de Bureaux à Brazzaville"
                                     data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="project-details.html" title="More Details" class="details-link"><i
+                                <a href="project-details.html" title="Plus de Détails" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- Fin de l'Élément du Portfolio -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/repairs-2.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Branding 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/repairs-2.jpg" title="Branding 2"
+                                <h4>Réhabilitation du Marché Total de Bacongo</h4>
+                                <p>Modernisation des infrastructures tout en préservant l'atmosphère traditionnelle</p>
+                                <a href="assets/img/projects/repairs-2.jpg"
+                                    title="Réhabilitation du Marché Total de Bacongo"
                                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="project-details.html" title="More Details" class="details-link"><i
+                                <a href="project-details.html" title="Plus de Détails" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- Fin de l'Élément du Portfolio -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/design-2.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Books 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/design-2.jpg" title="Branding 2"
+                                <h4>Théâtre National du Congo</h4>
+                                <p>Conception d'un espace culturel polyvalent célébrant les arts du spectacle congolais</p>
+                                <a href="assets/img/projects/design-2.jpg" title="Théâtre National du Congo"
                                     data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="project-details.html" title="More Details" class="details-link"><i
+                                <a href="project-details.html" title="Plus de Détails" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- Fin de l'Élément du Portfolio -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/remodeling-3.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 3</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/remodeling-3.jpg" title="App 3"
+                                <h4>Complexe Résidentiel à Oyo</h4>
+                                <p>Conception d'un ensemble d'habitations modernes adaptées au contexte local</p>
+                                <a href="assets/img/projects/remodeling-3.jpg" title="Complexe Résidentiel à Oyo"
                                     data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="project-details.html" title="More Details" class="details-link"><i
+                                <a href="project-details.html" title="Plus de Détails" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- Fin de l'Élément du Portfolio -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/construction-3.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Product 3</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/construction-3.jpg" title="Product 3"
+                                <h4>Nouveau Terminal de l'Aéroport de Pointe-Noire</h4>
+                                <p>Conception d'un terminal aéroportuaire moderne reflétant l'identité congolaise</p>
+                                <a href="assets/img/projects/construction-3.jpg"
+                                    title="Nouveau Terminal de l'Aéroport de Pointe-Noire"
                                     data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="project-details.html" title="More Details" class="details-link"><i
+                                <a href="project-details.html" title="Plus de Détails" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- Fin de l'Élément du Portfolio -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/repairs-3.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Branding 3</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/repairs-3.jpg" title="Branding 2"
+                                <h4>Restauration du Palais du Peuple</h4>
+                                <p>Rénovation et modernisation d'un bâtiment historique emblématique</p>
+                                <a href="assets/img/projects/repairs-3.jpg" title="Restauration du Palais du Peuple"
                                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="project-details.html" title="More Details" class="details-link"><i
+                                <a href="project-details.html" title="Plus de Détails" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- Fin de l'Élément du Portfolio -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/design-3.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Books 3</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/design-3.jpg" title="Branding 3"
+                                <h4>Bibliothèque Nationale du Congo</h4>
+                                <p>Conception d'un espace moderne dédié à la préservation et à la diffusion du savoir</p>
+                                <a href="assets/img/projects/design-3.jpg" title="Bibliothèque Nationale du Congo"
                                     data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="project-details.html" title="More Details" class="details-link"><i
+                                <a href="project-details.html" title="Plus de Détails" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- Fin de l'Élément du Portfolio -->
 
-                </div><!-- End Portfolio Container -->
+                </div><!-- Fin du Conteneur du Portfolio -->
 
             </div>
 
         </div>
 
-    </section><!-- /Projects Section -->
+    </section><!-- /Section Projets --><!-- /Projects Section -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
 
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Testimonials</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="swiper init-swiper">
-                <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "slidesPerView": "auto",
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                },
-                "breakpoints": {
-                  "320": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 40
-                  },
-                  "1200": {
-                    "slidesPerView": 2,
-                    "spaceBetween": 20
-                  }
-                }
-              }
-            </script>
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-wrap">
-                            <div class="testimonial-item">
-                                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img"
-                                    alt="">
-                                <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
-                                        rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                                        risus at semper.</span>
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-wrap">
-                            <div class="testimonial-item">
-                                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img"
-                                    alt="">
-                                <h3>Sara Wilsson</h3>
-                                <h4>Designer</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
-                                        cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
-                                        legam anim culpa.</span>
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-wrap">
-                            <div class="testimonial-item">
-                                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img"
-                                    alt="">
-                                <h3>Jena Karlis</h3>
-                                <h4>Store Owner</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
-                                        veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint
-                                        minim.</span>
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-wrap">
-                            <div class="testimonial-item">
-                                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img"
-                                    alt="">
-                                <h3>Matt Brandon</h3>
-                                <h4>Freelancer</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
-                                        fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem
-                                        dolore labore illum veniam.</span>
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-wrap">
-                            <div class="testimonial-item">
-                                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img"
-                                    alt="">
-                                <h3>John Larson</h3>
-                                <h4>Entrepreneur</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor
-                                        noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse
-                                        veniam culpa fore nisi cillum quid.</span>
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </div>
-
-    </section><!-- /Testimonials Section -->
 
     <!-- Recent Blog Posts Section -->
     <section id="recent-blog-posts" class="recent-blog-posts section">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Recent Blog Posts</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <h2>Actualités de l'OAC</h2>
+            <p>Restez informé des dernières nouvelles et événements de l'Ordre des Architectes du Congo</p>
         </div><!-- End Section Title -->
 
         <div class="container">
