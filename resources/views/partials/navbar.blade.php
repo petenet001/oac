@@ -8,7 +8,6 @@
 
         <nav id="navmenu" class="navmenu">
             <ul>
-                <li><a href="#">BARRE D'INFOS</a></li>
                 <li><a href="#">HISTORIQUE</a></li>
                 <li><a href="#">INSCRIPTIONS</a></li>
                 <li><a href="#">COTISATIONS</a></li>
