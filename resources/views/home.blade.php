@@ -83,7 +83,8 @@
                 </div>
             </div>
         </div>
-    </section><!-- /Get Started Section -->
+    </section>
+    <!-- /Get Started Section -->
 
 
     <!-- Members Section -->
@@ -96,8 +97,7 @@
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="member-item">
-                        <img src="{{ asset('assets/img/hiostory.jpg') }}"
-                            alt="Nom du Membre" class="img-fluid">
+                        <img src="{{ asset('assets/img/hiostory.jpg') }}" alt="Nom du Membre" class="img-fluid">
                         <h4>Jean Mukoko</h4>
                         <p>Président de l'OAC</p>
                         <p>Architecte renommé avec 30 ans d'expérience dans les projets d'urbanisme durable.</p>
@@ -105,8 +105,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="member-item">
-                        <img src="{{ asset('assets/img/hiostory.jpg') }}"
-                            alt="Nom du Membre" class="img-fluid">
+                        <img src="{{ asset('assets/img/hiostory.jpg') }}" alt="Nom du Membre" class="img-fluid">
                         <h4>Marie Yango</h4>
                         <p>Vice-Présidente de l'OAC</p>
                         <p>Spécialiste en architecture écologique et lauréate du prix national d'architecture 2020.</p>

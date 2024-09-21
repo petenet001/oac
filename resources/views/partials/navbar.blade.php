@@ -20,8 +20,8 @@
                 <li class="dropdown">
                     <a href="#"><span>INFOS DES DEPARTEMENTS</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li><a href="#">Brazzaville et zone nord</a></li>
-                        <li><a href="#">Pointe Noire et zone sud</a></li>
+                        <li><a href="/infos-departement/brazzaville">Brazzaville et zone nord</a></li>
+                        <li><a href="/infos-departement/pointe-noire">Pointe Noire et zone sud</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -38,12 +38,7 @@
                         <li><a href="#">Sous partie 1</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <a href="#"><span>TEXTES</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                    <ul>
-                        <li><a href="#">Sous partie 1</a></li>
-                    </ul>
-                </li>
+                <li><a href="/textes">TEXTES</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>

@@ -14,3 +14,17 @@ Route::get('/accueil',function(){
 Route::get('/historique',function(){
     return view('historique');
 });
+
+
+Route::get('/textes',function(){
+    return view('textes');
+});
+
+Route::group(['prefix' => 'infos-departement'], function () {
+    Route::get('/brazzaville',function(){
+        return view('brazzaville');
+    });
+    Route::get('/pointe-noire',function(){
+        return view('pointe-noire');
+    });
+});
