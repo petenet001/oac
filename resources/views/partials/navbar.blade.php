@@ -27,9 +27,9 @@
                 <li class="dropdown">
                     <a href="#"><span>INTERNATIONAL</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li><a href="#">UIA</a></li>
-                        <li><a href="#">AUA</a></li>
-                        <li><a href="#">FAFA</a></li>
+                        <li><a href="https://www.uia-architectes.org/fr/" target="_blank">UIA</a></li>
+                        <li><a href="https://www.aua.archi/" target="_blank">AUA</a></li>
+                        <li><a href="https://www.facebook.com/groups/1578220622493802/" target="_blank">FAFA</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

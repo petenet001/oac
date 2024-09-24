@@ -6,7 +6,7 @@
 @section('content')
 
     <!-- Page Title -->
-    <div class="page-title dark-background" style="background-image: url({{asset('assets/img/page-title-bg.jpg')}});">
+    <div class="page-title dark-background" style="background-image: url({{ asset('assets/img/page-title-bg.jpg') }});">
         <div class="container position-relative">
             <h1>Brazzaville</h1>
             <nav class="breadcrumbs">
@@ -20,8 +20,10 @@
     </div><!-- End Page Title -->
 
     <section class="container">
-      <h1>Brazzaville</h1>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt hic dolor saepe reiciendis dicta dolore debitis veniam temporibus? Doloremque animi perferendis blanditiis qui dolore adipisci fugit quam odio aperiam similique.
+        <h1>Brazzaville</h1>
+        <p>
+
+        </p>
     </section>
 
 @endsection
