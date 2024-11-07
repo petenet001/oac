@@ -7,7 +7,7 @@
                   <img src="{{ asset('oac_custom_assets/logo2.svg') }}" style="width:150px; height:auto;" alt="Logo Ordre des Architectes">
               </a>
               <div class="footer-contact pt-3">
-                  <p>Plateau des 15 ans, Immeuble Archi, Bât. 3, Brazzaville</p>
+                  <p>Plateau des 15 ans, Immeuble Archi, <br/>Bât. 3, Brazzaville</p>
                   <p class="mt-3"><strong>Téléphone:</strong> <span>+242 06 123 4567</span></p>
                   <p><strong>Email:</strong> <span>contact@oaccongo.cg</span></p>
               </div>

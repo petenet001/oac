@@ -15,6 +15,11 @@ Route::get('/historique',function(){
     return view('historique');
 });
 
+Route::get('/tableau',function(){
+    return view('tableau');
+});
+
+
 
 Route::get('/textes',function(){
     return view('textes');

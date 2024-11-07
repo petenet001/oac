@@ -12,7 +12,7 @@
             <p>Consultez toutes les lois votées à l'Assemblée nationale<br>REPUBLIQUE DU CONGO</p>
             <nav class="breadcrumbs">
                 <ol>
-                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="/">Accueil</a></li>
                     <li class="current">Textes</li>
                 </ol>
             </nav>

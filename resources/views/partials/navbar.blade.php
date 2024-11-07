@@ -32,12 +32,13 @@
                         <li><a href="https://www.facebook.com/groups/1578220622493802/" target="_blank">FAFA</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
+                <li><a href="/tableau">TABLEAU</a></li>
+               {{-- <li class="dropdown">
                     <a href="#"><span>TABLEAU</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
                         <li><a href="#">Sous partie 1</a></li>
                     </ul>
-                </li>
+                </li>--}}
                 <li><a href="/textes">TEXTES</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

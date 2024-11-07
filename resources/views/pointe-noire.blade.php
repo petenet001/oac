@@ -11,7 +11,7 @@
             <h1>Pointe-Noire</h1>
             <nav class="breadcrumbs">
                 <ol>
-                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="/">Accueil</a></li>
                     <li><a href="#">Internationale</a></li>
                     <li class="current">Pointe-Noire</li>
                 </ol>

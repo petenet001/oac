@@ -18,20 +18,20 @@
           box-sizing: border-box;
           padding: 10px;
         }
-      
+
         .news-items {
           display: inline-block;
           white-space: nowrap;
           animation: scroll-left 40s linear infinite;
         }
-      
+
         .news-items a {
           display: inline-block;
           margin-right: 50px; /* Espace entre les éléments */
           color: #ffffff;
           text-decoration: none;
         }
-      
+
         @keyframes scroll-left {
           from {
             transform: translateX(100%);
@@ -83,13 +83,13 @@
                                     </a>
                                 </li>
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-muted">
+                                    <a href="/infos-departement/pointe-noire" class="nav-link p-0 text-muted">
                                         <span><img src="{{ asset('oac_custom_assets/ICONES/infos.png') }}"
                                                 class="nav-icons" /></span>Infos des Départements
                                     </a>
                                 </li>
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-muted">
+                                    <a href="https://www.uia-architectes.org/fr/" class="nav-link p-0 text-muted">
                                         <span><img src="{{ asset('oac_custom_assets/ICONES/international.png') }}"
                                                 class="nav-icons" /></span>International
                                     </a>
@@ -121,13 +121,13 @@
                                     </a>
                                 </li>
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-muted">
+                                    <a href="/tableau" class="nav-link p-0 text-muted">
                                         <span><img src="{{ asset('oac_custom_assets/ICONES/Tableau.png') }}"
                                                 class="nav-icons" /></span>Tableau
                                     </a>
                                 </li>
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-muted">
+                                    <a href="/textes" class="nav-link p-0 text-muted">
                                         <span><img src="{{ asset('oac_custom_assets/ICONES/textes.png') }}"
                                                 class="nav-icons" /></span>Textes
                                     </a>
